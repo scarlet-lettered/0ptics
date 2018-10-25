@@ -27,7 +27,7 @@ body li {
   background-image: url("../images/glasses-bg.png");
   height: 31rem;
   background-size: cover;
-  background-position: left;
+  background-position: 40%;
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -45,11 +45,19 @@ body li {
   justify-content: flex-start;
 }
 
-.logo {
+#whtlogo {
   display: inline-flex;
 }
 
-.logo img {
+#blklogo {
+  display: inline-flex;
+}
+
+#whtlogo img {
+  height: 1.5rem;
+}
+
+#blklogo img {
   height: 1.5rem;
 }
 
@@ -124,13 +132,13 @@ aside h2 {
 
 }
 
-#nav {
+/* #nav {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   align-self: flex-start;
   height: 9rem;
-}
+} */
 
 nav {
   width: 22rem;
@@ -280,42 +288,129 @@ figcaption {
   #glassesguy {
     height: 17rem;
     background-position: 20%;
-  }
+    align-items: center;
+}
 
   #guytainer1 {
     height: 12.5rem;
+
   }
 
   .conprods {
-    visibility: hidden;
+    visibility: collapse;
+  }
+
+  .prodcon ul {
+    padding: 0 0;
+  }
+
+  .prodcon li {
+    padding: 0 0;
   }
 
   #menu {
-    visibility: visible
-      }
+    visibility: visible;
+  }
 
-  #TO {
+  .TO {
     visibility: collapse;
   }
 
   #header {
-    padding-left: 1rem;
-    justify-content: space-between;
+    padding-left: 0;
+    justify-content: center;
     width: 100%;
   }
 
-  .logo {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
   #guytainer2 {
-
+    width: 100%;
+    height: 4rem;
+    padding: 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   aside {
     width: 100%;
-    padding: 0 0;
+    font-size: 1rem;
+    padding: 1rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
+  aside h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  nav {
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  figure {
+    display: flex;
+    width: 5rem;
+    height: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+
+  figcaption {
+    padding-top: 1.54rem;
+  }
+
+  #philappt {
+    flex-direction: column;
+    padding: 0 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apptphil {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    text-align: left;
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+
+  .apptphil h3 {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1rem;
+  }
+
+  .apptphil p {
+    padding-left: 0.5rem;
+  }
+
+  .site-container {
+    width: 100%;
+  }
+
+  #footer {
+    padding: 1rem 1rem;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+  }
 }
