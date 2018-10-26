@@ -1,0 +1,158 @@
+
+@media only screen and (max-width:530px) {
+  #glassesguy {
+    height: 17rem;
+    background-position: 35%;
+    align-items: center;
+    }
+
+  #guytainer1 {
+    height: 12.5rem;
+    width: 100%;;
+    padding: 0 0;
+    justify-content: flex-start;
+  }
+
+  .conprods {
+    display: none;
+  }
+
+  .prodcon ul {
+    padding: 0 0;
+  }
+
+  .prodcon li {
+    padding: 0 0;
+    text-align: right;
+
+  }
+
+  #menu {
+    visibility: visible;
+    /* padding-left: 0;
+    padding-right: 4rem; */
+    padding-bottom: 0;
+    padding-left: 5rem;
+    padding-right: 0;
+  }
+
+  .TO {
+    visibility: collapse;
+  }
+
+  #header {
+    /* padding-left: 0; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    height: 1rem;
+  }
+
+  #whtlogo {
+    padding-right: 0;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  #guytainer2 {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside {
+    width: 100%;
+    font-size: 1rem;
+    /* padding: 1rem 0; */
+    padding-top: 0.70rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0rem;
+    padding-right: 22rem;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+  }
+
+  aside h2 {
+    font-size: 0.77rem;
+    text-align: right;
+    padding-left: 11rem;
+  }
+
+  nav {
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  figure {
+    display: flex;
+    width: 5rem;
+    height: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+
+  figcaption {
+    padding-top: 1.54rem;
+  }
+
+  #philappt {
+    flex-direction: column;
+    padding: 0 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apptphil {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    text-align: left;
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+
+  .apptphil h3 {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1rem;
+  }
+
+  .apptphil p {
+    padding-left: 0.5rem;
+  }
+
+  .site-container {
+    width: 100%;
+  }
+
+  #footer {
+    /* padding: 1rem 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9.75rem;
+    justify-content: center;
+    max-width: 690px;
+    align-items: center;
+
+  }
